@@ -3,7 +3,7 @@
     <div class="footer-content container">
       <div class="footer-left">
         <div class="logo">Laptop-Nitra</div>
-        <p>© 2025 Laptop-Nitra. Všetky práva vyhradené.</p>
+        <p>2026 Laptop-Nitra.</p>
       </div>
       <div class="footer-right">
         <a href="#" class="footer-link">About</a>

@@ -3,8 +3,8 @@
     <div class="logo">Laptop-Nitra</div>
     <nav class="nav">
       <router-link to="/" class="nav-btn">Home</router-link>
-      <router-link to="/products" class="nav-btn">Laptops</router-link>
-      <router-link to="/cart" class="nav-btn">Cart</router-link>
+      <router-link to="/products" class="nav-btn">Katalóg</router-link>
+      <router-link to="/cart" class="nav-btn">Košík</router-link>
     </nav>
   </header>
 </template>

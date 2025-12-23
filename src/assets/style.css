@@ -97,7 +97,7 @@ button {
   color: white;
   font-weight: 500;
   transition: background 0.2s, transform 0.2s;
-  margin-left: 6px;
+  margin-left: 12px;
 }
 button:hover {
   background: var(--accent-dark);
