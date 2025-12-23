@@ -1,20 +1,20 @@
 <template>
 <div>
-<h2>Корзина</h2>
+<h2>Košík</h2>
 <div v-if="items.length">
 <div v-for="it in items" :key="it.id" class="cart-row">
 <div>{{ it.title }}</div>
 <div>€{{ it.price }} × {{ it.qty }}</div>
-<button @click="remove(it.id)">Remove</button>
+<button @click="remove(it.id)">Odstrániť</button>
 </div>
 <div class="cart-summary">
-<div>Total: €{{ total }}</div>
-<router-link to="/checkout">Proceed to checkout</router-link>
+<div>Celkom: €{{ total }}</div>
+<router-link to="/checkout">Pokračovať k pokladni</router-link>
 </div>
 </div>
 <div v-else>
-<p>Корзина пуста</p>
-<router-link to="/products">Посмотреть товары</router-link>
+<p>Košík je prázdny</p>
+<router-link to="/products">Pozrieť si produkty</router-link>
 </div>
 </div>
 </template>

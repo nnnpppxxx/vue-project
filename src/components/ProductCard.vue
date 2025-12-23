@@ -6,8 +6,8 @@
     <div class="row">
       <div class="price">€{{ product.price }}</div>
       <div class="buttons">
-        <button @click="viewDetails">Details</button>
-        <button @click="addToCart">Add to cart</button>
+        <button @click="viewDetails">Podrobnosti</button>
+        <button @click="addToCart">Pridať do košíka</button>
       </div>
     </div>
   </div>

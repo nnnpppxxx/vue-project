@@ -5,10 +5,10 @@
 <div>{{ it.title }} x{{ it.qty }}</div>
 <div>€{{ it.price * it.qty }}</div>
 </div>
-<div class="cart-total">Total: €{{ total }}</div>
-<router-link to="/cart">Go to cart</router-link>
+<div class="cart-total">Celkom: €{{ total }}</div>
+<router-link to="/cart">Prejsť do košíka</router-link>
 </div>
-<div v-else>Cart is empty</div>
+<div v-else>Košík je prázdny</div>
 </div>
 </template>
 

@@ -1,10 +1,10 @@
 <template>
 <div>
-<h2>Оформление заказа</h2>
-<p>Здесь можно ввести данные и завершить покупку. (Демо)</p>
+<h2>Dokončenie objednávky</h2>
+<p>Tu môžete zadať údaje a dokončiť nákup. (Demo)</p>
 <div class="checkout-box">
-<p>Итого: €{{ total }}</p>
-<button @click="placeOrder">Place order</button>
+<p>Celkom: €{{ total }}</p>
+<button @click="placeOrder">Objednať</button>
 </div>
 </div>
 </template>
@@ -19,7 +19,7 @@ name: 'Checkout',
 computed: { total() { return useProductsStore().cartTotal } },
 methods: {
 placeOrder() {
-alert('Order placed (demo)')
+alert('Objednávka odoslaná (demo)')
 useProductsStore().clearCart()
 this.$router.push('/')
 }

@@ -6,12 +6,12 @@
 <h2>{{ product.title }}</h2>
 <p>{{ product.cpu }} · {{ product.ram }}</p>
 <div class="price">€{{ product.price }}</div>
-<button @click="addToCart">Add to cart</button>
+<button @click="addToCart">Pridať do košíka</button>
 </div>
 </div>
 </div>
 <div v-else>
-<p>Product not found</p>
+<p>Produkt sa nenašiel</p>
 </div>
 </template>
 
