@@ -402,7 +402,7 @@ button:hover {
 
 .cart-content {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 450px;
   gap: 40px;
   align-items: start;
 }
@@ -466,19 +466,21 @@ button:hover {
   margin-left: 20px;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .remove-btn {
   background: #ef4444;
   color: white;
   border: none;
-  padding: 6px 12px;
-  border-radius: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.2s;
   white-space: nowrap;
-  font-size: 14px;
+  font-size: 12px;
+  max-width: 80px;
 }
 
 .remove-btn:hover {
@@ -489,7 +491,7 @@ button:hover {
 .cart-summary {
   background: var(--card-bg);
   border-radius: 16px;
-  padding: 24px;
+  padding: 40px;
   box-shadow: 0 8px 24px var(--shadow);
   position: sticky;
   top: 20px;
@@ -534,8 +536,7 @@ button:hover {
 
 .checkout-btn:hover {
   background: linear-gradient(135deg, #155ab6, #1a73e8);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(26, 115, 232, 0.3);
+  box-shadow: 0 6px 16px rgba(26, 115, 232, 0.3);
 }
 
 .empty-cart {
@@ -581,8 +582,7 @@ button:hover {
 
 .shop-btn:hover {
   background: linear-gradient(135deg, #155ab6, #1a73e8);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(26, 115, 232, 0.3);
+  box-shadow: 0 6px 16px rgba(26, 115, 232, 0.3);
 }
 
 @media (max-width: 768px) {
