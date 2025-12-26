@@ -6,7 +6,7 @@
         <p>2026 Laptop-Nitra.</p>
       </div>
       <div class="footer-right">
-        <a href="#" class="footer-link">About</a>
+        <router-link to="/about" class="footer-link">About</router-link>
         <a href="#" class="footer-link">Contact</a>
         <a href="#" class="footer-link">Privacy</a>
       </div>
