@@ -17,21 +17,3 @@ export default {
   name: 'Contact'
 }
 </script>
-
-<style scoped>
-.contact {
-  padding: 2rem 0;
-}
-
-.contact h1 {
-  margin-bottom: 1rem;
-}
-
-.contact-info {
-  margin-top: 2rem;
-}
-
-.contact-info p {
-  margin-bottom: 0.5rem;
-}
-</style>
