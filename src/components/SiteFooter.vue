@@ -7,7 +7,7 @@
       </div>
       <div class="footer-right">
         <router-link to="/about" class="footer-link">About</router-link>
-        <a href="#" class="footer-link">Contact</a>
+        <router-link to="/contact" class="footer-link">Contact</router-link>
         <a href="#" class="footer-link">Privacy</a>
       </div>
     </div>

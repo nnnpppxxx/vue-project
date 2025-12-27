@@ -5,6 +5,7 @@ import ProductDetail from '../views/ProductDetail.vue'
 import CartView from '../views/CartView.vue'
 import Checkout from '../views/Checkout.vue'
 import About from '../views/About.vue'
+import Contact from '../views/Contact.vue'
 
 
 const routes = [
@@ -13,7 +14,8 @@ const routes = [
 { path: '/product/:id', component: ProductDetail, props: true },
 { path: '/cart', component: CartView },
 { path: '/checkout', component: Checkout },
-{ path: '/about', component: About }
+{ path: '/about', component: About },
+{ path: '/contact', component: Contact }
 ]
 
 
